@@ -1,0 +1,60 @@
+* {
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+body {
+	background: linear-gradient(90deg, pink, rgb(49, 49, 255));
+}
+
+
+#content {
+	background: rgb(255, 240, 253);
+	width: 600px;
+	margin: 100px auto;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px; /* corner appearance*/
+
+}
+
+#eightBall {
+	width: 350px;
+	height: 350px;
+	background: purple;
+	color: white;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 100%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	background-image: url(https://media.giphy.com/media/Fbox1ygIqnga5dLinz/giphy.gif?cid=ecf05e473q23s60yuelfo3prw14fpwsge9d17uu8hbsoydf1&rid=giphy.gif&ct=g); 
+	background-repeat: no-repeat; 
+	background-size: cover ;
+	background-position: center;
+}
+
+#answer {
+	font-size: 25px;
+}
+
+.shake {
+    animation: shake 1s;
+}
+
+@keyframes shake { /* for the shake */
+	0% { transform: translate(14px, 14px) rotate(0deg); }
+	10% { transform: translate(-14px, -14px) rotate(-1deg); }
+	20% { transform: translate(-17px, 0px) rotate(1deg); }
+	30% { transform: translate(17px, 14px) rotate(0deg); }
+	40% { transform: translate(14px, -14px) rotate(1deg); }
+	50% { transform: translate(-14px, 14px) rotate(-1deg); }
+	60% { transform: translate(-17px, 14px) rotate(0deg); }
+	70% { transform: translate(17px, 14px) rotate(-1deg); }
+	80% { transform: translate(-14px, -14px) rotate(1deg); }
+	90% { transform: translate(14px, 14px) rotate(0deg); }
+	100% { transform: translate(14px, -14px) rotate(-1deg); }
+}
+
+  
